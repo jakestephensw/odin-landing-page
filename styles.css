@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Document CSS */
+
+* {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 200px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Hero Section CSS */
+
+.hero-section {
+    padding: 0 10vw 0 10vw;
+    background-color: #1F2937;
+}
+
+/* Header CSS */
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0 16px 0;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero CSS */
+
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+}
+
+.hero-text {
+    flex-basis: 30vw;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+
+img {
+    width: 45vw;
+    height: 40vh;
+}
+
+/* Info Section CSS */
+
+.info-section{
+    padding: 0 10vw 0 10vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    gap: 16px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: solid #3882F6;
+}
+
+/* Quote Section CSS */
+
+.quote-section {
+    padding: 0 20vw 0 20vw;
+    height: 55vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote-section h2{
+    width: 40vw;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-section h3 {
+    align-self: flex-end;
+    font-size: 20px;
+    margin-right: 10vw;
+}
+
+/* CTA Section CSS */
+
+.cta-section {
+    padding: 0 20vw 0 20vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.cta-alert {
+    background-color:#3882F6;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.cta-alert button {
+    padding: 10px;
+    width: 100px;
+    border: solid white;
+}
+
+/* Footer CSS */
+
+.footer {
+    text-align: center;
+    background-color:#1F2937;
+    color:white;
+    padding: 32px;
+}
